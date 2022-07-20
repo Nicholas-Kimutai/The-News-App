@@ -32,12 +32,15 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return new EntertainmentFragment();
             case 5:
                 return new TechnologyFragment();
+
+            default:
+                return null;
         }
 
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return tabcount;
     }
 }
