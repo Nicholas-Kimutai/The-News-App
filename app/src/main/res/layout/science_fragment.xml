@@ -2,10 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_shadow_start_color">
+    android:background="@color/black">
+
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerviewHome"
+        android:id="@+id/recyclerviewScience"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="2dp"
