@@ -20,8 +20,8 @@ Toolbar mToolbar;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        mToolbar=findViewById(R.id.toolbar);
-//        setSupportActionBar(mToolbar);
+        mToolbar=findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
         mHome=findViewById(R.id.home);
         mSports=findViewById(R.id.sports);
