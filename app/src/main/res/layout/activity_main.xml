@@ -35,6 +35,7 @@
    </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_below="@+id/toolbar"
@@ -42,6 +43,7 @@
         app:tabSelectedTextColor="@color/purple_500"
         app:tabIndicatorHeight="3.5dp"
         android:layout_marginTop="0dp"
+        app:tabMode="scrollable"
         android:backgroundTint="@color/white">
 
 
@@ -93,6 +95,20 @@
 
 
     </com.google.android.material.tabs.TabLayout>
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabLayout"
+        android:layout_marginTop="0dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
